@@ -10,5 +10,5 @@ resources:
     type: OS::Nova::Server
     properties:
       key_name: {get_param: key_name}
-      flavor: m1.small
-      image: ubuntu-trusty-x86_64
+      flavor: cirros.flavor
+      image: TEST_Cirros
